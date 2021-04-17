@@ -1,0 +1,30 @@
+{
+  "name": "emoji-search-enhanced",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build":"tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdalvi1893/my-emoji-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdalvi1893/my-emoji-project/issues"
+  },
+  "homepage": "https://github.com/pdalvi1893/my-emoji-project#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/emojione": "^2.2.6",
+    "emojione": "^4.5.0"
+  }
+}
